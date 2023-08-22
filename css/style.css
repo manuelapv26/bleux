@@ -1,0 +1,688 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:#1e172f;
+    width: 100%;
+
+}
+nav{
+    padding: 0 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    padding-top: 20px;
+    text-decoration: none;
+    list-style: none;
+    border-style: none;
+}
+nav ul li a{
+    color: rgba(255, 255, 255, 0.582);
+    text-decoration: none;
+    list-style: none;
+    border-style: none;
+    font-size: 108%;
+}
+.m :hover{
+    color: white;
+}
+.boton1{
+    background: linear-gradient(to right,#7e4cd4, #2280d3);
+    padding-top: 17px;
+    padding-bottom: 19px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -10px;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+}
+.mitad{
+  width: 40%;
+  background-color: #2e2550;
+}
+.mitad h2{
+    color: white;
+    width: 20%;
+    font-size: 450%;
+    padding-left: 118px;
+    padding-top: 153px;
+}
+.mitad p{
+    color: white;
+    padding-left: 118px;
+    padding-top: 20px;
+    padding-right: 132px;
+}
+.mitad .botones{
+    display: flex;
+    justify-content: space-around;
+    width: 52%;
+    padding-left: 3px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 1px solid white;
+    margin-left: 117px;
+    margin-top: 30px;
+    border-radius: 7px;
+    
+}
+.mitad .botones .b1{
+    background-color: white;
+    color: #f83697;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    padding-left:21px;
+    padding-right: 22px;
+    font-size: 120%;
+    border-radius: 7px;
+}
+.mitad .botones .b2{
+    background-color: #2e2550;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 40px;
+    font-size: 120%;
+    border-radius: 7px;
+    border: 2px solid white;
+}
+.mitad2{
+    background-image: url(../imagenes/hojasFondo.jpg);
+    width: 60%;
+    background-size: cover;
+    height: 80vh;
+}
+.mitad2 img{
+    width: 25%;
+    height:60%;
+    padding-left:70px;
+    margin-top: 187px;
+    margin-left: 140px;
+}
+.section2 h2{
+    padding:54px  728px;
+    padding-top: 30px;
+    font-size: 220%;
+    color:#f41486;
+}
+.section2{
+    height: 60vh;
+}
+.organizar{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.mitad3{
+    width: 60%;
+    padding-left: 118px;
+}
+.mitad3 .laptop{
+     width: 43%;
+     height: 150%;
+     margin-left: 311px;
+}
+.mitad4{
+    width: 40%;
+}
+.mitad4 .titulo1{
+    font-size: 220%;
+    color:#ac3874;
+}
+.mitad4 p{
+    padding-top: 20px;
+    width: 48%;
+}
+.mitad4 .titulo2{
+    padding-top: 20px;
+    font-size: 120%;
+    color:#f41486;
+}
+.mitad4 .check{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.section3{
+    background-color: #2e2550;
+    height: 110vh;
+}
+.section3 h2{
+    color: white;
+    font-size: 240%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 .text{
+    color: white;
+    font-size: 110%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 36px;
+    margin-left: 450px;
+}
+.todo{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    padding-top: 58px;
+}
+.todo .carta .principio{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+}
+.todo .carta .principio img{
+    width: 30%;
+    height: 10%;
+}
+.todo .carta .principio .lite{
+    font-size: 130%;
+    color: #f41486;
+    padding: 5px 10px;
+}
+.carta{
+    background-color: white;
+    width: 20%;
+    height: 40%;
+    border-radius: 10px;
+}
+.chunku{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.chunku .p1{
+    font-size: 270%;
+    color: black;
+    padding: 20px 10px;
+
+}
+.chunku .p2{
+    font-size: 113%;
+    color: black;
+    padding: 27px 1px;
+}
+.carta .cosos{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 110%;
+}
+.cosos span{
+    padding-top: 10px;
+}
+.cosos img{
+    padding-right: 49px;
+}
+.text{
+    color: black;
+    padding: 20px 10px ;
+}
+.todo .carta .principio .standard{
+    font-size: 130%;
+    color: #2e2550;
+    padding: 5px 10px;
+}
+.todo .carta .principio .ultimate{
+    font-size: 130%;
+    color: #2e2550;
+    padding: 5px 10px;
+}
+.todo .carta .parrafo3{
+    padding-top: 20px;
+    font-size: 100%;
+    width: 80%;
+    padding-left: 76px;
+    padding-bottom: 34px;
+    padding-top: 32px;
+}
+.botonFinal{
+     background-color: #f5f5f5;
+     padding-top: 25px;
+     padding-left: 107px;
+     padding-bottom: 15px;
+     border-radius: 7px;
+}
+.decorado1{
+    background: linear-gradient(to right,#fa73b9, #f41486);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 110%;
+}
+.decorado2{
+    background-color: #1e172f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 110%;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    padding-top: 50px;
+}
+footer p{
+    padding-left: 180px;
+    font-size: 112%;
+    color: rgba(0, 0, 0, 0.685);
+}
+.ultimo{
+    padding-left: 760px;
+    display: flex;
+    justify-content: space-around;
+    width: 47%;
+}
+.rosado{
+    color: #f41486;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width:1279px){
+    .mitad{
+        height: 80vh;
+    }
+    .mitad h2{
+        font-size: 415%;
+        padding-top: 70px;
+    }
+    .mitad p{
+        width: 106%;
+    }
+    .mitad .botones .b1 {
+        font-size: 90%;
+    }
+    .mitad .botones .b2{
+        font-size: 90%;
+        padding-right: 30px;
+    }
+    .mitad .botones{
+        width: 58%;
+    }
+    .section2 h2 {
+        padding: 53px 508px;
+    }
+    .mitad3 .laptop{
+        margin-left: 189px;
+    }
+    .mitad4 p{
+        width: 71%;
+    }
+    .section3 .text{
+        margin-left: 331px;
+    }
+    .carta .cosos{
+        padding-left: 17px;
+    }
+    .todo .carta .parrafo3{
+        width: 97%;
+        padding-left: 30px;
+    }
+    .botonFinal{
+        padding-left: 60px;
+    }
+    .section3{
+        height: 130vh;
+    }
+    .ultimo {
+        padding-left: 454px;
+    }
+    footer p {
+        padding-left: 125px;
+    }
+}
+@media screen and (max-width:920px){
+    nav ul {
+        width: 70%;
+        padding-right: 52px;
+    }
+    .mitad h2{
+        font-size: 300%;
+    }
+    .mitad p {
+        width: 128%;
+    }
+    .mitad .botones {
+        width: 66%;
+        padding-right: 4px;
+    }
+    .mitad .botones .b1 {
+        font-size: 75%;
+    }
+    .mitad .botones .b1 {
+        font-size: 72%;
+        padding-right: 23px;
+    }
+    .section2 h2 {
+        padding: 53px 336px;
+    }
+    .mitad4 {
+        width: 55%;
+        font-size: 90%;
+    }
+    .mitad3 .laptop {
+        margin-left: 19px;
+        width: 88%;
+    }
+    .mitad2 img{
+        width: 35%;
+        height:50%;
+    }
+    .section3 .text{
+        margin-left: 229px;
+    }
+    .chunku .p2 {
+        font-size: 82%;
+    }
+    .carta .cosos {
+        font-size: 89%;
+    }
+    .cosos img {
+        padding-right: 16px;
+    }
+    .todo .carta .parrafo3{
+        font-size: 85%;
+        padding-left: 19px;
+    }
+    .decorado1{
+        font-size: 95%;
+    }
+    .decorado2{
+        font-size: 95%;
+    }
+    .botonFinal{
+        padding-left: 30px;
+    }
+    .section3{
+        height: 120vh;
+    }
+    .todo{
+        padding-top: 25px;
+    }
+    footer p {
+        padding-left: 82px;
+        font-size: 79%;
+    }
+    .ultimo {
+        padding-left: 301px;
+    }
+}
+@media screen and (max-width:769px){
+    nav{
+        width: 110%;
+    }
+    .mitad h2 {
+        font-size: 305%;
+        padding-top: 90px;
+        padding-left: 75px;
+    }
+    .mitad p{
+        width: 132%;
+        padding-left: 78px;
+    }
+    .mitad .botones{
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+        padding: 11px 10px;
+    }
+    .mitad2 img {
+        width: 47%;
+        height: 53%;
+    }
+    .chunku .p1 {
+        font-size: 210%;
+    }
+    .chunku .p2 {
+        font-size: 79%;
+    }
+    .carta .cosos {
+        font-size: 75%;
+    }
+    .cosos img {
+        padding-right: 11px;
+    }
+    .cosos span {
+        padding-top: 19px;
+    }
+    .todo .carta .parrafo3 {
+        font-size: 79%;
+    }
+    .decorado1{
+        font-size: 90%;
+    }
+    .decorado2{
+        font-size: 90%;
+    }
+    .botonFinal {
+        padding-left: 19px;
+    }
+    .section3 .text{
+        font-size: 100%;
+        margin-left: 190px;
+        padding-top: 20px;
+    }
+    .ultimo {
+        padding-left: 230px;
+    }
+}
+@media screen and (max-width:480px){
+    nav{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        padding: 14px;
+        font-size: 84%;
+    }
+    nav ul {
+        margin-left: 30px;
+    }
+    .mitad h2 {
+        font-size: 199%;
+        padding-top: 69px;
+        padding-left: 40px;
+    }
+    .mitad p {
+        width: 164%;
+        padding-left: 42px;
+        font-size: 110%;
+    }
+    .mitad .botones{
+        margin-left: 41px;
+        padding: 4px 4px;
+    
+    }
+    .mitad .botones .b2{
+        font-size: 105%;
+        padding-left: 28px;
+    }
+    .mitad .botones .b1 {
+        font-size: 109%;
+    }
+    .mitad2 img {
+        width: 69%;
+        height: 46%;
+        margin-left: 4px;
+    }
+    .section2{
+        height: 50vh;
+    }
+    .section2 h2 {
+        padding: 29px 144px;
+        font-size: 160%;
+    }
+    .mitad3 {
+        width: 52%;
+        padding-left: 1px;
+    }
+    .mitad3 .laptop{
+        padding-top: 32px;
+    }
+    .mitad4 .titulo1 {
+        font-size: 151%;
+    }
+    .mitad4 p{
+        width: 90%;
+        padding-top: 3px;
+        font-size: 95%;
+    }
+    .mitad4 .titulo2 {
+        padding-top: 8px;
+        font-size: 107%;
+    }
+    .mitad4 .check {
+        padding-top: 4px;
+        font-size: 80%;
+    }
+    .section3 h2{
+        font-size: 175%;
+    }
+    .section3 .text {
+        font-size: 80%;
+        width: 70%;
+        margin-left: 71px;
+        padding-top: 10px;
+    }
+    .todo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .carta{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .botonFinal {
+        padding-left: 56px;
+    }
+    .section3{
+        height: 290vh;
+    }
+    .ultimo {
+        padding-left: 77px;
+    }
+    footer p {
+        padding-left: 79px;
+        font-size: 75%;
+    }
+}
+@media screen and (max-width:352px){
+    .boton1{
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    nav ul {
+        padding-right: 25px;
+    }
+    nav ul li {
+        padding: 10px;
+    }
+    .mitad h2{
+        padding-left: 11px;
+    }
+    .mitad p {
+        width: 191%;
+        padding-left: 13px;
+        font-size: 90%;
+    }
+    .mitad .botones {
+        margin-left: 16px;
+    }
+    .mitad .botones .b1 {
+        font-size: 74%;
+        padding-left: 15px;
+    }
+    .mitad .botones .b2 {
+        font-size: 87%;
+        padding-left: 13px;
+    }
+    .mitad2 img{
+    width: 79%;
+    height: 36%;
+    margin-left: -11px;
+    }
+    .mitad {
+        height: 70vh;
+    }
+    .mitad2{
+        height: 70vh;
+    }
+    .organizar{
+        display: flex;
+        flex-direction: column;
+    }
+    .mitad3 .laptop {
+        padding-top: 1px;
+    }
+    .section2 h2 {
+        padding: 28px 81px;
+        font-size: 150%;
+    }
+    .mitad4{
+        padding-left: 18px;
+    }
+    .mitad4 .titulo1 {
+        font-size: 140%;
+        width: 118%;
+    }
+    .mitad4 p {
+        width: 147%;
+        font-size: 93%;
+    }
+    .section3 .text {
+        font-size: 76%;
+        width: 90%;
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+    .botonFinal {
+        padding-left: 28px;
+    }
+    footer p {
+        padding-left: 13px;
+    }
+    .ultimo {
+        padding-left: 11px;
+    }
+
+}
